@@ -1,0 +1,154 @@
+.online-box{
+    width:99%;
+    height:1311px;
+    // background-color: #f5f5f8;
+    padding:25px;
+    border:3px solid#d4d4dd;
+    border-radius: 20px;
+    .online-box-helf1{
+     margin:20px;
+        float: left;
+        width:50%;
+    }
+    .online-box-helf2{
+        float: left;
+        margin:20px;
+        width:50%;background-color: #f7f7f7;
+        
+    }
+}
+.dangertext{
+  color:red
+}
+.deleteicon{
+  color:red;
+  padding :1px,2px,3px,4px;
+  font-size: 13px;
+}
+.bg-gray-box{
+  background-color: #e7e3dc;
+    padding: 8px 8px 8px 16px;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+.bg-gray-title{
+  background-color: #e7e3dc;
+  padding: 8px 8px 8px 16px;
+  font-size: 16px;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+ul {
+    // display: block;
+    list-style-type:square;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }
+  .task-lists li  {
+    width: 100%;
+    transition: all 1s;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+    position: relative;
+    .remarks {
+      display: none;
+    }
+    &:hover {
+      transition: all 0.5s;
+      background: #E6F5FF;
+      padding-left: 40px;
+      cursor: pointer;
+      .remarks {
+        display: inline;
+        color: #CCC;
+      }
+    }
+    .task-active-list-icon {
+      position: absolute;
+      top: 36%;
+      right: 5px;
+    }
+  }
+  .online-button{
+    background-color: #1890ff; /* Green */
+    border: 2px solid #ccc;
+    border-radius: 11px;
+    width: 100%;
+    color: white;
+    padding: 4px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    &:hover{
+            background-color: #4CAF50; /* Green */
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+          }      
+  }
+  .delete-icon{
+      float:right;
+  }
+
+
+  //normal task style
+.desp-modal-task-title {
+    width: 100%;
+    min-height: 30px;
+    font-size: 12px;
+    color: #133F4D;
+  }
+  .desp-modal-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .desp-modal-content .list{
+    min-height: 28px;
+    margin: 15px;
+  }
+  
+  //Tips
+  .no-content-tips {
+    text-align: center;
+    animation: textbreathinginfinite 3s infinite;
+    -moz-animation: textbreathinginfinite 3s infinite;
+    -webkit-animation: textbreathinginfinite 3s infinite;
+    -o-animation: textbreathinginfinite 3s infinite;
+  }
+  @keyframes textbreathinginfinite {
+    0% { color:#DEDEDE; }
+    50% { color:#3A3A3A; }
+    100% { color:#DEDEDE; }
+  }
+  @-moz-keyframes textbreathinginfinite {
+    0% { color:#DEDEDE; }
+    50% { color:#3A3A3A; }
+    100% { color:#DEDEDE; }
+  }
+  @-webkit-keyframes textbreathinginfinite {
+    0% { color:#DEDEDE; }
+    50% { color:#3A3A3A; }
+    100% { color:#DEDEDE; }
+  }
+  @-o-keyframes textbreathinginfinite {
+    0% { color:#DEDEDE; }
+    50% { color:#3A3A3A; }
+    100% { color:#DEDEDE; }
+  }
+  
+  

@@ -1,0 +1,218 @@
+.des-header-container {
+  width: 100%;
+  background-color: rgb(131, 26, 26) !important;
+}
+.desp-header-container{
+  width: 100%;
+}
+.des-header-user {
+  height: inherit;
+  margin: 0 15px;
+  .des-header-img {
+    position: relative;
+    top: 10px;
+    right: 5px;
+    box-shadow: 0 0 5px #CCC;
+  }
+}
+.des-header-left-menu-box {
+  float: left;
+  margin-right:34px;
+
+}
+.des-header-right-menu-box {
+  float: right;
+  color:#39A4FA;
+}
+.des-header-right-app-menu-box {
+  float: right;
+  color:#39A4FA;
+  // margin-left:34px;
+}
+.des-header-menu-item {
+  margin: 0 5px;
+}
+.des-header-user-detail-box {
+  width: 150px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.des-header-button-item {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0;
+  color: #FD8623;
+  border-bottom: 1px dashed #F3F3F3;
+  &:hover {
+    cursor: pointer;
+    background: #F8F8F8;
+  }
+}
+
+.des-appicon-box {
+  height: 100px;
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .desp-icon-masklayer-text {
+    display: none;
+  }
+  &:hover {
+    color: #FD9911;
+    .desp-icon-masklayer {
+      position: absolute;
+      top: -5px;
+      left: 27px;
+      width: 110px;
+      height: 110px;
+      background: #494949;
+      opacity: .5;
+      border-radius: 20px;
+      line-height: 110px;
+      text-align: center;
+    }
+    .desp-icon-masklayer-text {
+      display: inline;
+      position: absolute;
+      top: -5px;
+      left: 27px;
+      width: 110px;
+      height: 110px;
+      line-height: 110px;
+      text-align: center;
+      color: #FFF;
+      cursor: pointer;
+    }
+  }
+}
+
+.des-change-project-container {
+  max-width: 600px;
+  min-width: 300px;
+  .des-title {
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 3;
+    margin: 0 0 5px 0;
+  }
+  .des-sub-title {
+    margin: 3px auto;
+    color: rgb(167, 167, 167);
+    background: #FAFAFA;
+    padding: 1px 3px;
+  }
+}
+
+.nav{
+  width:420px;
+  height: 50px;
+  line-height: 50px;
+  text-align:center;
+  margin:0px auto 0;
+  color: #39A4FA;
+ 
+// 、background: #c9b4b3;
+  // border-radius:20px;
+  /*制作导航立体风格*/
+  // box-shadow:0 5px #b64b41;
+  }
+  .nav a{
+  display: inline-block;
+  // -webkit-transition: all 0.2s ease-in;
+  // -moz-transition: all 0.2s ease-in;
+  // -o-transition: all 0.2s ease-in;
+  // -ms-transition: all 0.2s ease-in;
+  // transition: all 0.2s ease-in;
+  }
+  .nav a:hover{
+  // -webkit-transform:rotate(10deg);
+  // -moz-transform:rotate(10deg);
+  // -o-transform:rotate(10deg);
+  // -ms-transform:rotate(10deg);
+  // transform:rotate(10deg);
+  }
+  
+  .nav li{
+  position:relative;
+  display: flex;
+  justify-content: center;
+
+  display:inline-block;
+  padding:0 16px;
+  font-size: 15px;
+  color:#1890ff;
+  list-style: none outside none;
+  }
+  .nav li{background:linear-gradient(to bottom,#b6adad,#a82724,#dd2926) no-repeat right / 1px 15px;}
+  /*使用伪元素制作导航列表项分隔线*/
+  
+  /*删除第一项和最后一项导航分隔线*/
+  .nav li:last-child{background:none;}
+  
+  .nav a,
+  .nav a:hover{
+  text-decoration: none;
+  }
+  .foot {
+    background: #F9F9F9;
+    padding: 8px;
+    position: absolute;
+    bottom: 20;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .logo-content {
+    width: 100%;
+    text-align: center;
+    margin:3px,12px;
+    .logo {
+      height: 35px;
+      max-width: 150px;
+      margin: 8px auto;
+    }
+    .logo-text{
+      float: right;
+      font-size: 18px;
+      color: #39A4FA 100%;
+    
+    }
+  }
+  .icons-content{
+     height: 57px;
+     text-align: center;
+      // border: 3px solid #1890ff;
+     .icon-icon{
+       font-size: 20px;
+       line-height: 27px;
+       margin: auto;
+       .icon-text{
+        font-size: 35px;
+        color: #1890ff;
+        line-height: 77px;
+        
+       }
+     }
+     .text-text{
+      position: relative;
+      top: -6px;
+      left:13px;
+      transform: translateY(-50%);
+    }
+  }
+  .badge-icon{
+    font-size: 27px;
+    color: #ecf0f3;
+  }
+  //打印样式
+  @media print {
+    .foot {
+      display: none;
+    }
+  }

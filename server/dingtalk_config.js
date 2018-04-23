@@ -1,0 +1,14 @@
+var config = {
+  OAPIHOST: "https://oapi.dingtalk.com",
+  CORP_ID: "ding02074ec4ac7a6669",
+  CORP_SECRET: "K3_wCnuBNnLVg7gRAOzyGWH8xO4bLKGvuk5NpxIcfwzrm2hi6V-QSEtxaHFY4Ax3",
+  PC_PRODUCTION_AGENT_ID: "35016560",
+  PC_STAGING_AGENT_ID: "39511107",
+  PC_DEV_AGENT_ID: "35016453",
+  MOBILE_PRODUCTION_AGENT_ID: "41815516",
+  MOBILE_DEV_AGENT_ID: "53868333",
+  MOBILE_STAGING_AGENT_ID: "67242633"
+  // AGENT_ID: process.env.NODE_ENV == "production" ? "35016560": "35016453", //测试
+};
+
+module.exports = config;

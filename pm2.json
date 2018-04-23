@@ -1,0 +1,15 @@
+{
+    "name": "desp-help",
+    "script": "bin/www",
+    "cwd": "./",
+    "node_args": "--harmony",
+    "error_file": "./logs/app-err.log",
+    "out_file": "./logs/app-out.log",
+    "env_development": {
+        "NODE_ENV": "development"
+    },
+    "env_production": {
+        "NODE_ENV": "production",
+        "PORT":"7982"
+    }
+}
